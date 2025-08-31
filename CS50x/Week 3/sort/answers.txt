@@ -1,0 +1,15 @@
+sort1 uses: Bubble Sort
+
+How do you know?: I already know sort2 is Merge Sort because of the difference in time with a randomized file of numbers
+and sort2 is able to sort the already sorted list quite fast which is because it only has to check the list once opposed to sort3 wich is selection sort which has to check the list n
+times.
+
+sort2 uses: Merge Sort
+
+How do you know?: When sorting the largest random numbered file it is by far the fast compared to sort1 and sort3 and it is also pretty consistant times for 50k numbers regardless
+of it being random reversed, or sorted.
+
+sort3 uses: Selection Sort
+
+How do you know?: When sorting a already sorted list of numbers it takes by far the longest compared to the other two sorting methods.
+

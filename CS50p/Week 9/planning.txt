@@ -1,0 +1,107 @@
+Runner Class
+(Name, PR, Grade, Gender, Pace) with error checking for each value
+Function that calculates average pace
+PR and Pace a stored as seconds rounded to nearest int
+
+
+Before User Input:
+    Read in info and assign each to a unique Runner
+
+    Find and store the average mile pace for a runner in self.pace
+
+    create sorted lists for:
+    All Runners
+    All Men
+    All Women
+    All Runners Each Grade
+    All Men Each Grade
+    All Women Each Grade
+
+    (15 total lists)
+
+User Input:
+    Infinite loop that ends when user says to exit
+        Present the user with choices:
+            see top n runners
+            see a specific rank
+            see a specific runner
+            exit program
+
+        Match on choice
+            option 1
+                ask for sorting specifications
+                find specific list based on specifications
+                print top n athletes in that list with times
+            option 2
+                ask for sorting specifications
+                find specific list based on specifications
+                print all stats for that runner
+            option 3
+                print all stats for that runner
+            else
+                break from loop and end program
+
+        sorting specifications are:
+        gender: all, male,female
+        grade: all,9,10,11,12
+        put in list in dict in dict
+
+
+
+
+    """
+    all lists
+    each runner should be in 4 lists
+    everyone
+
+    frosh_runners
+    soph_runners
+    junior_runners
+    senior_runners
+
+    male_runners
+
+    frosh_male
+    soph_male
+    junior_male
+    senior_male
+
+    female_runners
+
+    frosh_female
+    soph_female
+    junior_female
+    senior_female
+    """
+
+
+
+
+"""
+Initial Project thoughts/notes:
+based on Cross-Country running
+make a Runner class that stores PR's, grade, gender #done
+get runners stats from a csv file #done
+rank runners by grade and PR's aswell as regardless of grade #done
+make a function to sort athletes by PR grade and gender #didnt need a function
+make a function that gets the average mile pace for a runner's PR #done (inside of the runner class)
+make a function that lets you find a runner's rank
+make a function that lets you find what runner is at a specific rank
+make a function that displays the top n ranks names and times
+make a function that formats times from seconds to minutes #decided not to store times in seconds because it would be more work
+"""
+
+
+
+
+
+
+
+
+
+
+
+dict = {"name":"Ryan"}
+
+dict["name"]
+->Ryan
